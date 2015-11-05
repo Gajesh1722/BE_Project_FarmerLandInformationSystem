@@ -1,0 +1,59 @@
+.body
+{
+background:#CCFFFF;
+}
+.background
+{
+background-color:#66CC99;
+}
+.table
+{ 
+ background-color: #669999;
+ border:#000000 groove;
+ }
+.font
+{
+font:Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color: #993333;
+}
+.header
+{background-color: #99FFFF:
+}
+header font 
+{
+size:18px;
+}
+ul li.active{ /*IE6 hack- hide gooey effect from that browser*/
+_visibility: hidden; /*IE6 rule*/
+}
+
+/* ######### Gel Menu CSS ######### */
+
+ul.gelbuttonmenu{
+position:relative;
+padding: 0;
+margin: 0;
+margin-bottom:1em;
+text-align: center; //set value to "left", "center", or "right"*/
+}
+
+ul.gelbuttonmenu li{
+display: inline;
+}
+
+ul.gelbuttonmenu li a{
+color: black;
+font-weight:bold;
+padding: 10px; /*make sure padding is sufficient that the height of the link is enough to fully show the gel button*/
+margin-right: 20px; /*spacing between each menu link*/
+text-decoration: none;
+}
+
+ul.gelbuttonmenu li.active{ /*style of LI that gets dynamically added to menu to create background effect*/
+position:absolute;
+width:0;
+background: #CC0000;
+background:url(gelbuttonleft.gif) top left no-repeat, url(gelbuttonright.gif) top right no-repeat, url(gelbuttoncenter.gif) top center repeat-x;
+}
+
